@@ -1,7 +1,6 @@
 # encoding: utf-8
 
-from error import HumanReadableError
-from logs import logger
+from .logs import logger
 
 def catch_exceptions(handler):
   def decorator(func):
